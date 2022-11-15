@@ -54,13 +54,6 @@ class Home extends StatelessWidget {
                 child: Text('fourth ui'),
                 style: ElevatedButton.styleFrom(
                   primary: Colors.green,
-                    echo "# sanjesh_one" >> README.md
-                git init
-                git add README.md
-                git commit -m "first commit"
-                git branch -M main
-                git remote add origin https://github.com/ksanjesh/sanjesh_one.git
-                    git push -u origin main
                 ),
                 onPressed: () {
                   Navigator.push(context, MaterialPageRoute(builder: (context)=> Project_Four()));
